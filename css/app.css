@@ -27,7 +27,8 @@ button {
   grid-gap: 3px;
 }
 
-.container > * {
+.quadrado {
+  user-select: none;
   cursor: pointer;
   display: flex;
   justify-content: center;
