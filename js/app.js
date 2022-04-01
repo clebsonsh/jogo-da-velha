@@ -48,7 +48,7 @@ function checarVencedor() {
   }
   // ganhar com as 3 casas na vertical
   if (checarSequencia(quadrados[0], quadrados[3], quadrados[6])) {
-    mudarCorQuadradosVencedor(quadrados[0], quadrados[6], quadrados[6]);
+    mudarCorQuadradosVencedor(quadrados[0], quadrados[3], quadrados[6]);
     jogadorVencedor.textContent = quadrados[0].textContent;
   }
 
